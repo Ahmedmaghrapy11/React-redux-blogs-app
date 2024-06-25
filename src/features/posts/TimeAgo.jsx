@@ -1,7 +1,7 @@
 import { parseISO, formatDistanceToNow } from "date-fns";
 
 const TimeAgo = ({ timestamp }) => {
-  console.log(timestamp); // 2024-06-19T03:47:44.351Z
+  // timestamp = 2024-06-19T03:47:44.351Z
 
   let timeAgo = "";
 
