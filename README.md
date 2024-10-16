@@ -1,8 +1,42 @@
-# React + Vite
+# Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This is a simple blog application where users can create, update, view, and delete blog posts. The application is built using React and Redux Toolkit for state management and styled with pure CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+
+- **React**: ^18.2.66
+- **Redux Toolkit**: ^2.2.5
+- **Axios**: ^1.7.2
+- **react-router-dom**: 6.23.1
+- **Pure CSS**: No CSS framework, only custom styles
+
+## Features
+
+- Create new blog posts
+- Update existing blog posts
+- View all blog posts
+- Delete blog posts
+- Responsive design with pure CSS
+
+## Setup
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Ahmedmaghrapy11/React-redux-blogs-app.git
+   cd React-redux-blogs-app
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start project server**:
+   ```bash
+   npm run dev
+   ```
